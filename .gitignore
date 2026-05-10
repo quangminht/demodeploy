@@ -1,42 +1,17 @@
-# ===== HỆ THỐNG =====
+# Hệ thống
 .DS_Store
 *.log
-*.tar.gz
-*.zip
 
-# ===== WORDPRESS CORE (không cần push, download từ wordpress.org) =====
-wordpress/wp-admin/
-wordpress/wp-includes/
-wordpress/wp-*.php
-wordpress/index.php
-wordpress/license.txt
-wordpress/readme.html
-wordpress/xmlrpc.php
-
-# ===== BẢO MẬT — TUYỆT ĐỐI KHÔNG PUSH =====
+# Bảo mật — KHÔNG push credentials
 wordpress/wp-config.php
 
-# ===== UPLOADS (ảnh/media — quá nặng) =====
+# Uploads — ảnh/media (quá nặng, backup riêng)
 wordpress/wp-content/uploads/
 
-# ===== PLUGINS (cài lại từ WordPress.org) =====
-wordpress/wp-content/plugins/
-
-# ===== THEME MẶC ĐỊNH (không cần) =====
-wordpress/wp-content/themes/twentytwenty*/
-wordpress/wp-content/themes/twentyone*/
-wordpress/wp-content/themes/twentytwo*/
-wordpress/wp-content/themes/twentythree*/
-
-# ===== LANGUAGE FILES (nặng, không cần) =====
-wordpress/wp-content/languages/
-
-# ===== CACHE =====
+# Cache runtime
 wordpress/wp-content/cache/
 wordpress/wp-content/upgrade/
-wordpress/wp-content/backup*/
 
-# ===== FILE LỚN KHÔNG CẦN =====
-latest.tar.gz
-media/
-furniture-agents/
+# File nén không cần
+*.tar.gz
+*.zip
