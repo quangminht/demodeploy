@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/usr/local/mysql/bin/mysql --host=127.0.0.1 -uroot -pminhtran1234 noithat_db -e \"SHOW TABLES LIKE '%post%';\")"
+    ]
+  }
+}
