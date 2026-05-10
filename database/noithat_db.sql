@@ -560,7 +560,7 @@ CREATE TABLE `pw_users` (
 
 LOCK TABLES `pw_users` WRITE;
 /*!40000 ALTER TABLE `pw_users` DISABLE KEYS */;
-INSERT INTO `pw_users` VALUES (1,'quan_tri_vien','$wp$2y$10$/U6DA5RIlA.hW4utg0RDxeWYuOUXriNKNXAt7y2bUo10oxIdM9/8e','quan_tri_vien','quangminht@gmail.com','http://noithat.local/wordpress','2026-04-30 10:07:01','',0,'quan_tri_vien');
+INSERT INTO `pw_users` VALUES (1,'quan_tri_vien','0e7517141fb53f21ee439b355b5a1d0a','quan_tri_vien','quangminht@gmail.com','http://noithat.local/wordpress','2026-04-30 10:07:01','',0,'quan_tri_vien');
 /*!40000 ALTER TABLE `pw_users` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1848,4 +1848,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-05-10 19:37:29
+-- Dump completed on 2026-05-10 19:42:29
