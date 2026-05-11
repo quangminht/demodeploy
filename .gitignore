@@ -5,8 +5,6 @@
 # Bảo mật — KHÔNG push credentials
 wordpress/wp-config.php
 
-# Uploads — ảnh/media (quá nặng, backup riêng)
-wordpress/wp-content/uploads/
 
 # Cache runtime
 wordpress/wp-content/cache/
